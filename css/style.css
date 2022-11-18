@@ -1,0 +1,149 @@
+/*__________________________________GENERAL_____________________________*/
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+html{
+    margin-top: 0;
+	background-color: #EBF0F1;
+    font-family: 'Dosis',sans-serif;
+}
+
+main {
+    margin: auto;
+    width: 80%;
+}
+/*______________________________HEADER________________________________*/
+header {
+    text-align: center;
+	font-family: 'Amatic SC', cursive;
+    width: 70%;
+	margin-bottom: 2rem;
+}
+
+h1{
+    color:#FF4A3A;
+    text-align: center;
+    font-weight: normal;
+	font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/*__________________________transitions_________________________________*/
+h1:hover{
+     color:#FF4A3A;
+     transition: color 0.4s;
+}
+.fa{
+	transition-property: transform;
+	-webkit-transition-property: transform;
+    transition-duration: .8s;
+	transition-timing-function: ease-out;
+}
+
+.fa:hover{
+	transform: scale(1.8);
+   	-webkit-transform: scale(1.8);
+}
+
+/*__________________________boutons______________________________________*/
+label {
+    color: #00A0A4;
+    font-size: 3rem;
+    vertical-align: top;
+    text-align: left;
+    display: inline-block;
+    width: 12rem;
+    padding-top: 8px;
+}
+
+input {
+    display: inline-block;
+}
+
+div {
+    width: 80%;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+/*___________________________________________________________________________*/
+section{
+    margin: 0 1rem;
+    width: 100%;
+}
+
+#slate {
+    /*width: 50rem;*/
+    /*height: 50rem;*/
+    box-shadow: 1rem 1rem 1rem 1rem #c0c0c0;
+    /*border-radius: 1rem;*/
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    background-color: white;
+    /*padding-left: 5rem;*/
+}
+#color-palette {
+    /*width: 20rem;*/
+    /*height: 20rem;*/
+    box-shadow: 1rem 1rem 1rem 1rem #c0c0c0;
+    border-radius: 1rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+/*___________________________________boutons erase & pipette ________________________*/
+button {
+    /*padding: 3px;*/
+    margin: 6px;
+}
+.fa {
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 1px;
+}
+#tool-clear-canvas {
+    color: deeppink;
+}
+#tool-color-picker {
+    color: #0EECB1;
+}
+/*___________________________________boutons de couleurs________________________*/
+.white,.rond {
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    border: 1px black solid;
+    background: white;
+}
+.noir {
+    background: black;
+    border:none;
+}
+.marron {
+    background: #50280c;
+    border:none;
+}
+.rouge {
+    background:#cc0000;
+    border:none;
+}
+.jaune{
+    background: #FFEE24;
+    border:none;
+}
+.vert{
+    background: green;
+    border:none;
+}
+.turquoise {
+    background: deepskyblue;
+    border:none;
+}
+.bleu {
+    background: darkblue;
+    border:none;
+}
